@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Font Wizard – AI Font Suggester</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Font Wizard – AI Font Suggester</h1>
+    <p>Enter your UI type (e.g., mobile app, dashboard):</p>
+    <input type="text" id="uiType" placeholder="e.g., mobile app" />
+    <button onclick="generatePrompt()">Generate Prompt</button>
+    <div id="resultBox" class="hidden">
+      <p id="resultText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
